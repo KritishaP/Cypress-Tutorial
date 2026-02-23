@@ -9,7 +9,8 @@ describe('My test suite',()=>{
         cy.contains('View Product').eq(0).click()  // first product
         cy.get('#name').type('kritisha')
         cy.get('#email').type('example@gmail.com')
-        cy.get('#review').type('Dress is as same as shown in the picture')        
+        cy.get('#review').type('Dress is as same as shown in the picture')     
+        cy.get('#button-review') .click() 
         
     })
     // it('click on specific product',()=>{
