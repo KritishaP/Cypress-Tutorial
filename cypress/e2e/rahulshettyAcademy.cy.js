@@ -20,7 +20,10 @@ describe('Rahul Shetty Academy Automation',()=>{
         cy.get('#displayed-text').type('Kritisha')
         cy.get('#hide-textbox').click()
         cy.get('#show-textbox').click()
+        cy.get('#show-textbox').click();
+
         // cy.get('#mousehover').trigger('mouseover') //hover
-        // cy.get('[href="#top"]').click()
+        // cy.get('.mouse-hover-content a[href="#top"]').should('be.visible').click()
+        
     })
 })
